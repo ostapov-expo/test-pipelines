@@ -60,7 +60,7 @@ describe('Math Module', () => {
         });
 
         test('fibonacciIterative(10) should return 55', () => {
-            expect(false).toBe(true)
+            // expect(false).toBe(true)
             expect(math.fibonacciIterative(10)).toBe(55);
         });
 
