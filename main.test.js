@@ -12,6 +12,7 @@ describe('Math Module', () => {
 
         test('factorial(5) should return 120', () => {
             expect(math.factorial(5)).toBe(120);
+            console.log("Tested factorial(555)");
         });
 
         test('factorial(10) should return 3628800', () => {
