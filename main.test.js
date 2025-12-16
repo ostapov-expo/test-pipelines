@@ -55,10 +55,12 @@ describe('Math Module', () => {
         });
 
         test('fibonacciIterative(5) should return 5', () => {
+            let x = "lorem ipsum";
             expect(math.fibonacciIterative(5)).toBe(5);
         });
 
         test('fibonacciIterative(10) should return 55', () => {
+            // expect(false).toBe(true)
             expect(math.fibonacciIterative(10)).toBe(55);
         });
 
